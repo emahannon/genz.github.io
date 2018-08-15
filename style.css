@@ -9,8 +9,8 @@
   /* GENERATION Z CLUB */
 
   position: absolute;
-  width: 572px;
-  height: 74px;
+  width: 35.75em;
+  height: 4.63em;
   left: 447.88px;
   top: 186px;
 
@@ -54,66 +54,27 @@
 .ellipseTwo{
   border-radius: 50%;
   position: absolute;
-  width: 104px;
-  height: 104px;
-  left: 957.88px;
-  top: 90px;
+  width: 6.50em;
+  height: 6.50em;
+  left: 75%;
+  top: 15%;
 
   background: #B2931E;
   box-shadow: 10px 15px 4px rgba(0, 0, 0, 0.25);
 
 }
 
+.ellipseThree{
+  border-radius: 50%;
 
-.links{
-  font-family; interstate,Charcoal, sans-serif;
-  text-align: center;
-  padding: 10px;
-}
+  position: absolute;
+  width: 10.44em;
+  height: 10.44em;
+  left: 5%;
+  top: 50%;
 
-.photo li {
-    display: inline-block;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.container{
-  background-color: white;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: center;
-  font-family: interstate, charcoal, sans-serif;
-  color: white;
-
-}
-
-.text-container{
-  background-color: #c6c6c6;
-  padding-top: 8%;
-  padding-bottom: 8%;
-  padding-left: 4%;
-  padding-right: 4%;
-  border-radius: 25px; /*gives rounded corners*/
-  text-align: center;
-  font-family: interstate, charcoal, sans-serif;
-  color: white;
-  font-size: 3vw;
-}
-
-.flex-container {
-  display: flex;
-  background-color: #f1f1f1;
-  justify-content: space-around;
-}
-
-.flex-container > div {
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+  background: #B2931E;
+  box-shadow: 15px 30px 4px rgba(0, 0, 0, 0.25);
 }
 
 nav {
@@ -143,74 +104,7 @@ a:hover {color: #c76387;}
 a:active {color: #c76387;}
 
 
-h3 {
-    color: #c76387;
-    font-family: interstate,Charcoal, sans-serif;
-    text-align: center;
-    letter-spacing: 5px;
-    font-size: 300%;
-    line-height: 40px;
-}
-
-h4{
-    color: black;
-    font-family: interstate,sans-serif;
-    text-align: center;
-    font-weight: .01;
-    font-size: 3vw;
-    line-height: 250%;
-
-
-}
-
-h5{
-    color: black;
-    font-family: interstate, sans-serif;
-    text-align: center;
-    font-weight: .01;
-    font-size: 150%;
-    padding:20px;
-
-}
-
-h6{
-    color:white;
-    font-family: interstate, sans-serif;
-    text-align: center;
-    font-weight: .01;
-    font-size: 100%;
-    padding: 20px;
-
-
-}
-
 footer {
-    color: #c76387;
-    font-family: interstate,Charcoal, sans-serif;
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 40%;
-    line-height: 13px;
 
-}
 
-iframe{
-margin:auto;
-padding:4em;
-}
-
-html, body {
-    height: 100%;
-}
-
-img {
-    padding: 0;
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
 }
