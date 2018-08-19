@@ -252,7 +252,7 @@ h2{
   width: 30em;
   height: 2em;
   left: 25%;
-  top: 200%;
+  top: 150%;
 
   font-family: 'Mina';
   font-style: normal;
@@ -266,16 +266,51 @@ h2{
 
 footer {
   position: absolute;
-  width: 591px;
+  width: 100%;
   height: 20px;
   left: 54px;
   top: 1613px;
+
+}
+
+.footerBackground{
+  position: absolute;
+  width: 100%;
+  height: 4em;
+  left: 0%;
+  bottom: -20%;
+
+  background: #E5E5E5;
 }
 
 .footerTxt{
-  font-size: .01em;
+  position: absolute;
+  font-size: 1em;
+  left: 10%;
+  bottom: 7%;
+
 
 }
+
+.footerInsta{
+  position: absolute;
+  padding-right: 1em;
+  padding-left: 1em;
+  left: 119%;
+  bottom: -80%;
+
+}
+
+.footerEmail{
+  position: absolute;
+  padding-right: 1em;
+  padding-left: 1em;
+  left: 103%;
+  bottom: -80%;
+
+}
+
+
 
 
 
