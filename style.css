@@ -221,18 +221,17 @@ a:active {color:  #B2931E;}
 
 .headerBack{
   position: absolute;
-width: 100%;
-height: 8.5em;
-left: 0em;
-top: 0em;
+  width: 100%;
+  height: 8.5em;
+  left: 0em;
+  top: 0em;
 
-background: #183811;
+  background: #183811;
 }
 
 .headerWords{
   text-align: center;
 }
-
 
 h2{
   font-family: Mina;
@@ -277,6 +276,8 @@ footer {
   font-size: .01em;
 
 }
+
+
 
 p{
 
