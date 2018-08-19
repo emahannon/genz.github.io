@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Mina:700');
 @import url('https://fonts.googleapis.com/css?family=Mina');
 
-.header{
-
-}
-
 .homeHeader{
   /* GENERATION Z CLUB */
 
@@ -107,7 +103,7 @@
   box-shadow: 10px 20px 4px rgba(0, 0, 0, 0.25);
 }
 
-.ellipseSix{
+.ellipseSix{/*top middle over letter Z*/
   border-radius: 50%;
 
   position: absolute;
@@ -156,7 +152,7 @@
   top: 70%;
 
   background: #B2931E;
-  box-shadow: 15px 30px 4px rgba(0, 0, 0, 0.25);
+  /*box-shadow: 15px 30px 4px rgba(0, 0, 0, 0.25);*/
 }
 
 .ellipseTen{/*bottom right corner*/
@@ -187,20 +183,21 @@
 
 
 nav {
-    line-height:100px;
-    background-color:#f1f1f1;
-    float:center;
-    font-family: interstate,Charcoal, sans-serif;
+    line-height:4em;
+    background-color:#E5E5E5;
+
+    font-family: 'Mina';
+    font-style: normal;
     color: black;
     text-align: center;
-    letter-spacing: 2px;
     font-size: 150%;
-    word-spacing: 30px;
+    letter-spacing: 0.11em;
+
+    position: absolute;
     width: 100%;
-    position: sticky;
-    top: 0;
-    padding-top: 5px;
-    padding-bottom:5px;
+    height: 4em;
+    left: 0%;
+
 }
 
 a:link {color: black;
@@ -208,12 +205,19 @@ text-decoration: none;}
 
 a:visited {color: black;}
 
-a:hover {color: #c76387;}
+a:hover {color:  #B2931E;}
 
-a:active {color: #c76387;}
+a:active {color:  #B2931E;}
 
 
+.navWords{
+  padding-left: 3em;
+  padding-right: 3em;
+}
 
+.navHome{
+  top: 75%;
+}
 
 
 
@@ -223,7 +227,7 @@ a:active {color: #c76387;}
   width: 30em;
   height: 2em;
   left: 25%;
-  top: 80%;
+  top: 200%;
 
   font-family: 'Mina';
   font-style: normal;
