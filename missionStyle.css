@@ -12,9 +12,32 @@
   left: 65%;
   top: 35%;
 
-background: #183811;
+  background: #183811;
 }
 
+.ellipseTwoM{
+  border-radius: 50%;
+
+  position: absolute;
+  width: 18em;
+  height: 18em;
+  left: 60%;
+  top: 56%;
+
+  background: #B2931E;
+}
+
+.ellipseThreeM{
+  border-radius: 50%;
+
+  position: absolute;
+  width: 10em;
+  height: 10em;
+  left: 75%;
+  top: 75%;
+
+  background: #E5E5E5;
+}
 
 .missionTitle{
   position: absolute;
@@ -57,7 +80,7 @@ background: #183811;
   width: 100%;
   height: 4em;
   left: 0%;
-  bottom: -3%;
+  bottom: -8%;
 
   background: #E5E5E5;
 }
